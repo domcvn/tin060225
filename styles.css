@@ -1,13 +1,30 @@
 .header {
-  background: url("img/truong.jpg") no-repeat center center;
+  background: url("img/congtruong_2.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   text-align: center !important;
-  color: orange;
-  text-shadow: 2px 2px 0 #000;   
+  color: white;
+  text-shadow: 3px 3px 0 black;   
   font-family: "Roboto", serif;
   font-size: 40px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  background-color: lightgray;
+}
+
+.tenclb {
+  font-size: 30px;
+  font-family: "Readex Pro";
+}
+
+.noidungclb {
+  font-size: 18px;
+  font-family: "Crimson Pro";
 }
 
 .title {
@@ -35,7 +52,7 @@
   height: 100%;
 }
 
-.footer {
+footer {
   background-color:lightgray;
   margin: 1px;
   padding: 10px;
@@ -44,4 +61,8 @@
 .menu {
   font-size: 120%;
   text-decoration: none;
+}
+
+.list_footer {
+  font-size: 18px;
 }
