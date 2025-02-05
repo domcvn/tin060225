@@ -1,4 +1,4 @@
-.header {
+header {
   background: url("img/congtruong_2.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 3rem;
@@ -8,6 +8,12 @@
   text-shadow: 3px 3px 0 black;   
   font-family: "Roboto", serif;
   font-size: 40px;
+}
+
+.intro {
+  font-family: "Crimson Pro";
+  font-size: 25px;
+  padding-left: 40px;
 }
 
 .row {
@@ -23,12 +29,14 @@
 }
 
 .noidungclb {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Crimson Pro";
 }
 
 .title {
   text-align: center;
+  font-family: "Alexandria";
+  font-size: 50px;
 }
 
 .table {
@@ -40,21 +48,25 @@
 .cell_img {
   height: auto; 
   width: auto; 
-  max-width: 300px; 
-  max-height: 300px;
+  max-width: 500px; 
+  max-height: 500px;
+  text-align: center;
 }
 
-.cell_text {
+.cell_text_1 {
   width: 50%;
-  padding-left: 10px;
-  padding-right: 10px;
+}
+
+.cell_text_2 {
+  width: 50%;
+  text-align: right;
 }
 
 .img {
   height: auto; 
   width: auto; 
-  max-width: 300px; 
-  max-height: 300px;
+  max-width: 500px; 
+  max-height: 500px;
 }
 
 footer {
@@ -70,4 +82,13 @@ footer {
 
 .list_footer {
   font-size: 18px;
+}
+
+.chitiet {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  color: navy;
 }
