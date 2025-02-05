@@ -67,6 +67,17 @@ header {
   width: auto; 
   max-width: 500px; 
   max-height: 500px;
+  border-radius: 3%
+}
+
+.img_logoclb {
+  height: auto; 
+  width: auto; 
+  max-width: 500px; 
+  max-height: 500px;
+  border-radius: 50%;
+  border-color: lightgray;
+  border-style: solid;
 }
 
 footer {
@@ -92,3 +103,4 @@ footer {
 a {
   color: navy;
 }
+
